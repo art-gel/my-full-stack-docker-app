@@ -71,3 +71,4 @@ jobs:
           sed -i "s|YOUR_SHA|$SHA|g" docker-compose.yml
           docker compose pull
           docker compose up -d
+  
